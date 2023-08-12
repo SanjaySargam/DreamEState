@@ -94,13 +94,20 @@
             android:textAlignment="center"
             android:layout_marginTop="32dp"
             android:textColor="#ffffff"/>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="81dp"
             android:orientation="horizontal">
-
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Or Login with"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:layout_marginTop="32dp"
+                android:textColor="#000000"/>
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="8dp"
