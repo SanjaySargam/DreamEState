@@ -3,22 +3,18 @@ package com.example.dream
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.TextView
 
-class MainActivity : AppCompatActivity() {
+class RegistrationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        val signUp = findViewById<TextView>(R.id.SignUp)
-
-        signUp.setOnClickListener {
-            val intent = Intent(this@MainActivity,RegistrationActivity::class.java)
+        setContentView(R.layout.activity_registration)
+        val login = findViewById<TextView>(R.id.login)
+        login.setOnClickListener{
+            val intent = Intent(this@RegistrationActivity,MainActivity::class.java)
             startActivity(intent)
         }
 
-        }
-
-
-
     }
+
+}
