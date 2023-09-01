@@ -10,6 +10,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val signUp = findViewById<TextView>(R.id.SignUp)
+
+        signUp.setOnClickListener {
+            val intent = Intent(this@MainActivity,RegistrationActivity::class.java)
+            startActivity(intent)
+        }
 
         }
 
