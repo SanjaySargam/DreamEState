@@ -118,15 +118,17 @@
                 android:textSize="15dp"
                 android:textColor="@color/black"
                 android:textStyle="bold"/>
-            <Spinner
+             <Spinner
                 android:id="@+id/stateSpinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:background="#5676"
+                android:hint="Select a State" />
 
-
-                android:prompt="Select State"/>
+            <Spinner
+                android:id="@+id/districtSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select a District" />
 
 
 
